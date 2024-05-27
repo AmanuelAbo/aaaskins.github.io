@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #8B4513; /* Brown background */
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+.image-section, .text-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section {
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.laptop-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.description p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.contact-info {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.contact-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #FF5722;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
